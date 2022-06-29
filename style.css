@@ -1,0 +1,129 @@
+html, body{
+  background-color: #3C1255;
+  color:white;
+  margin: auto 0;
+  font-size: 1.4em;
+}
+.center{
+  max-width: 500px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+.flex-container{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  border: 2px solid #565695;
+}
+/*.flex-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid #9177AC;
+}*/
+/*#userinput, #enter{
+  padding: 0.5em;
+  
+  background:#1A1A59;
+  border-radius: 2px;
+  color:white;
+}*/
+#userinput,#enter{
+  background-color: #1A1A59;
+  color:#F5F5DC;
+  padding: 0.5em;
+  font-size:0.7em;
+}
+#userinput{
+  /*box-sizing: border-box;*/
+  background-color: #1A1A59;
+  border-right:2px solid #565695;
+  border-left:0px;
+  border-top:0px;
+  border-bottom:0px;
+  outline:none;
+}
+#enter{
+  border:none;
+}
+#enter:hover{
+  background-color:#09093B;
+}
+.lists{
+  color:#E4F5A3;
+}
+.list_container{
+  width:100%;
+}
+li{
+  list-style:none;
+  display:grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  right:0.6em;
+}
+.delete_item{
+  background:#F5F5DC;
+  color:#550000;
+  font-size:0.7em;
+  border:1px solid #3C1255;
+}
+.delete_item:hover{
+  background:#550000;
+  color:#F5F5DC;
+  border:1px solid #F5F5DC;
+}
+#resetBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+#reset{
+  padding: 10px 20px;
+  background:#49090C;
+  color:#F5F5DC;
+  font-size:0.7em;
+  border:1px solid #3C1255;
+}
+#reset:hover{
+  background:#680308;
+  color:#F5F5DC;
+  border:none;
+}
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+  /*if you want to change the line-through color*/
+  /*text-decoration-color: rgb(177, 225, 122); */
+}
+
+
+
+
+
+
+
+
+
